@@ -59,6 +59,11 @@ public class Test14 {
                 System.out.println("Not validate kelime");
             }
 
+            /*
+
+
+            asdakdaklsdjasjd
+             */
 
 
 
