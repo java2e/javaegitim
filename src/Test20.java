@@ -18,6 +18,17 @@ public class Test20 {
         return yeniKelime;
     }
 
+    public static boolean isPoligram(String kelime) {
+
+        if(kelime.equals(convertWord(kelime))) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
 
     public static void main(String[] args) {
 
@@ -25,5 +36,7 @@ public class Test20 {
         String sonuc = convertWord("Java Developer");
 
         System.out.println(sonuc);
+
+        System.out.println(isPoligram("developer"));
     }
 }
