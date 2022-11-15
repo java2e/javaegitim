@@ -96,6 +96,10 @@ public class Test24 {
         personel.dosyaCikar();
         personel.dosyaYukle("Personel!");
 
+        Sablon sablon1 = new Akademisyen();
+
+        Sablon sablon2 = new Personel();
+
         //Sablon sablon =new Sablon(); //interface üzerinde nesne üretmezsiniz!
 
     }

@@ -1,10 +1,10 @@
-public interface Sablon {
+public interface Sablon<T> {
 
     public final long maxDosyaBoyutu=5124;
 
-    public void dosyaYukle(String dosya);
+    public void dosyaYukle(T dosya);
 
-    public String dosyaCikar();
+    public T dosyaCikar();
 
 
 }

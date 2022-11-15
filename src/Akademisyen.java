@@ -1,4 +1,4 @@
-public class Akademisyen implements Sablon{
+public class Akademisyen implements Sablon<String>{
 
 
     @Override

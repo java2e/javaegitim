@@ -6,6 +6,14 @@ public class Bolge extends BaseModel {
         System.out.println("Bolge nesne üretildi!");
     }
 
+
+    @Override
+    public String getAdi() {
+
+        System.out.println("Bolge içerisinde cagrıldı");
+        return "test";
+    }
+
     private String kodu;
     private String telefon;
 

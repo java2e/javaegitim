@@ -1,13 +1,13 @@
-public class Personel implements Sablon{
+public class Personel implements Sablon<Long>{
     @Override
-    public void dosyaYukle(String dosya) {
+    public void dosyaYukle(Long dosya) {
         System.out.println("Personel dosya yuklendi!");
     }
 
     @Override
-    public String dosyaCikar() {
+    public Long dosyaCikar() {
 
         System.out.println("Personel dosya cikarildi!");
-        return "Dosya";
+        return 123l;
     }
 }
