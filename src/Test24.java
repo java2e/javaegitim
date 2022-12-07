@@ -94,7 +94,7 @@ public class Test24 {
 
         Personel personel = new Personel();
         personel.dosyaCikar();
-        personel.dosyaYukle("Personel!");
+        //personel.dosyaYukle("Personel!");
 
         Sablon sablon1 = new Akademisyen();
 

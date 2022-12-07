@@ -23,9 +23,6 @@ public class Test {
 
         model2 = new KayitBilgisi();
 
-        List<> list =new ArrayList<>();
-
-
 
 
 
