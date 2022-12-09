@@ -18,6 +18,10 @@ public class Test3 {
         liste.add(new Ogrenci("Ayşe","Taş","66666666666"));
         liste.add(new Ogrenci("Fatma","Taş","888888888888"));
 
+        /*
+        Lambda expressşon
+        Java 8 ile birlikte gelen!
+         */
 
         liste.stream().forEach(ogrenci -> System.out.println(ogrenci));
 
@@ -28,8 +32,12 @@ public class Test3 {
 
         liste.stream().forEach(ogrenci -> System.out.println(ogrenci));
 
+        liste = (ArrayList<Ogrenci>) liste.stream().filter(ogrenci -> ogrenci.getTcNo().charAt(0)=='1').collect(Collectors.toList());
 
-        liste.get(3);// index 3 olanı getiri index 0 baslar!!
+        liste.stream().forEach(ogrenci -> System.out.println(ogrenci));
+
+
+        //liste.get(3);// index 3 olanı getiri index 0 baslar!!
 
 
 
